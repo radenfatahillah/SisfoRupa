@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sisfo Rupa</string>
+    <string name="nama">RADEN FATAHILLAH</string>
+    <string name="nim">H1101171011</string>
+    <string name="menu1">Simulasi Nilai</string>
+    <string name="menu2">Cuaca</string>
+    <string name="menu3">Nilai</string>
+    <string name="menu4">Profil</string>
+    <string name="menu5">Ikon 1</string>
+    <string name="menu6">Ikon 2</string>
+    <string name="menu7">Saran</string>
+    <string name="menu8">Tentang</string>
+    <string name="absen">Absen</string>
+    <string name="tugas">Tugas</string>
+    <string name="uts">UTS</string>
+    <string name="uas">UAS</string>
+</resources>
