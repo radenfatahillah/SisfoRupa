@@ -173,13 +173,12 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/buttonIkon1"
+                android:id="@+id/btnTelpon"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="top|center_horizontal"
                 android:scaleType="centerCrop"
-                android:background="@drawable/tools"
-                android:onClick="buttonIkon1"/>
+                android:background="@drawable/phone" />
 
             <TextView
                 android:layout_width="match_parent"

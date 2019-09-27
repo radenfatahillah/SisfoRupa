@@ -3,8 +3,10 @@ package com.raden.sisforupa;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,6 +14,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button btnTelpon = findViewById(R.id.btnTelpon);
+
+        btnTelpon.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                telponNomor(v);
+            }
+        });
     }
 
     public void buttonSimulasinilai(View view){
@@ -34,9 +43,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void buttonIkon1(View view){
-        Intent intent = new Intent(MainActivity.this, Ikon1Activity.class);
-        startActivity(intent);
+    public void telponNomor(View view){
+        Uri uri = Uri.parse("tel:085245894354");
+        Intent it = new Intent(Intent.ACTION_DIAL, uri);
+        startActivity(it);
     }
 
     public void buttonIkon2(View view){
