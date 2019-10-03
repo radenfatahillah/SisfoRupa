@@ -11,8 +11,6 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity android:name=".TentangActivity"></activity>
         <activity android:name=".SaranActivity" />
-        <activity android:name=".Ikon1Activity" />
-        <activity android:name=".Ikon2Activity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".NilaiActivity" />
         <activity android:name=".CuacaActivity" />
